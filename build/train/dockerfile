@@ -1,0 +1,4 @@
+FROM python:3.8
+
+COPY ./requirement.txt /temp/requirement.txt
+RUN pip install -r /temp/requirement.txt
